@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poetsen+One&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-Libre: "Archivo", sans-serif;
+    --color-brown:#94691F;
+    --color-skin:#FFEEDA;
+    --color-tan:#CBA35C;
+    --color-soul:#292112;
+    --color-ash:#757169;
+    --color-white:#ffffff;
+    --color-dark-brown:#2F1F03;
+    --color-button-golden:#CBA35C;
+
+}
+
+@layer base {
+    body{
+        font-family: var(--font-Libre);
+        background-color: var(--color-white);
+        overflow-x: hidden;
+        
+    }
+    h1{
+        font-size:96px;
+        font-weight:900;
+        line-height:153px;
+
+    }
+    h2{
+        font-size:40px;
+        line-height:64px;
+
+    }
+    h3{
+        font-size:32px;
+        line-height:52px;
+
+    }
+    h4{
+        font-size:24px;
+        line-height:39px;
+
+    }
+    h5{
+        font-size:20px;
+        line-height:32px;
+    }
+}

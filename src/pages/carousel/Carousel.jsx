@@ -46,7 +46,7 @@ export const Carousel = () => {
 
       {/* Headings */}
       <div className="text-center max-w-3xl mx-auto px-4 z-10 relative">
-        <h4 className="text-tan font-bold text-sm uppercase tracking-widest mb-2">
+        <h4 className="text-tan font-bold uppercase tracking-widest mb-2">
           Shop By Categories
         </h4>
         <h3 className="text-soul font-bold text-3xl md:text-4xl">

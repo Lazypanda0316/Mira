@@ -3,6 +3,8 @@ import back from '../../assets/images/background.png';   // Right side image
 import back2 from '../../assets/images/background2.png'; // Line-art background
 import { Header } from '../../components/header/Header';
 import { Carousel } from '../carousel/Carousel';
+import { BestSelling } from '../bestSelling/BestSelling';
+import Catering from '../catering/Catering';
 
 export const Home = () => {
 
@@ -39,6 +41,8 @@ export const Home = () => {
       </div>
     </div>
     <Carousel/>
+    <BestSelling/>
+    <Catering/>
     </>
   );
 };

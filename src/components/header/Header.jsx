@@ -11,7 +11,7 @@ export const Header = () => {
 
       <div className="flex flex-col items-center">
         <img src={logo} alt="logo" className="h-12 w-auto mb-1" />
-        <nav className="flex gap-10 text-sm text-neutral-800 mt-7">
+        <nav className="flex gap-10 text-lg text-neutral-800 mt-7">
           <a NavLink to="#">Home</a>
           <a NavLink to="#">About Us</a>
           <a NavLink to="#">Products</a>

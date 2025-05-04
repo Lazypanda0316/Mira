@@ -5,6 +5,8 @@ import { Header } from '../../components/header/Header';
 import { Carousel } from '../carousel/Carousel';
 import { BestSelling } from '../bestSelling/BestSelling';
 import Catering from '../catering/Catering';
+import { About } from '../about/About';
+import { WhyMira } from '../whyMira/WhyMira';
 
 export const Home = () => {
 
@@ -41,8 +43,10 @@ export const Home = () => {
       </div>
     </div>
     <Carousel/>
+    <About/>
     <BestSelling/>
     <Catering/>
+    <WhyMira/>
     </>
   );
 };

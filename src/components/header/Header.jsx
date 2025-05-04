@@ -6,7 +6,7 @@ import { IoIosSearch } from "react-icons/io";
 
 export const Header = () => {
   return (
-    <header className="bg-[#FAF6F2] h-[179px] w-full flex items-center justify-between px-8">
+    <header className="bg-[#FAF6F2] h-[179px] w-full flex items-center justify-between px-8 fixed top-0 left-0 z-50">
       <div className="flex items-center gap-4"></div>
 
       <div className="flex flex-col items-center">

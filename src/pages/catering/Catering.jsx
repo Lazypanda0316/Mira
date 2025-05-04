@@ -21,40 +21,41 @@ const Catering = () => {
       </div>
 
       {/* Grid Section */}
-      <div className="grid grid-cols-3 grid-rows-2 gap-4">
+      <div className="grid grid-cols-3 grid-rows-2 gap-2">
         {/* Left Block: Wedding Cakes */}
-        <div className="col-span-2 row-span-2 flex items-center justify-between shadow-lg overflow-hidden px-8 py-8  bg-skin">
-        <div className="w-1/2">
-            <img
-              src={big}
-              alt="Wedding Cakes and Desserts"
-              className="w-[345px] h-[420px] rounded-xl object-cover"
-            />
-          </div>
-          {/* Text Section */}
-          <div className="w-1/2 pr-6 flex flex-col justify-center items-start">
-  <h2 className="text-3xl font-bold text-soul mb-4">Wedding Cakes and Desserts</h2>
-  <p className="text-lg text-soul mb-6">
-    Elegant, handcrafted cakes and desserts tailored to make your special day unforgettable.
-  </p>
-  <button className="bg-soul hover:bg-soul-dark text-white font-semibold py-3 px-4 transition duration-300">
-    Shop Now
-  </button>
+        <div className="col-span-2 row-span-2 flex items-center gap-8  overflow-hidden px-8 py-8 bg-skin ">
+  {/* Image Section */}
+  <div className="w-1/2">
+    <img
+      src={big}
+      alt="Wedding Cakes and Desserts"
+      className="w-[345px] h-[420px] rounded-xl object-cover"
+    />
+  </div>
+
+  {/* Text Section */}
+  <div className="w-1/2 pr-4 flex flex-col justify-center items-start">
+    <h2 className="text-4xl font-bold text-soul mb-4">Wedding Cakes and Desserts</h2>
+    <p className="text-lg text-soul mb-6">
+      Elegant, handcrafted cakes and desserts tailored to make your special day unforgettable.
+    </p>
+    <button className="bg-soul hover:bg-soul-dark text-white font-semibold py-3 px-6  transition duration-300">
+      Shop Now
+    </button>
+  </div>
 </div>
 
 
-          {/* Image Section */}
-          
-        </div>
-
        {/* Top Right Block */}
-<div className="bg-skin flex items-center justify-between p-4 ">
+<div className="bg-skin flex items-center justify-between p-8 ">
   {/* Text Section */}
   <div className="w-1/2 pr-4">
-    <h2 className="text-2xl font-semibold text-soul mb-2">Golden Celebrations</h2>
-    <p className="text-soul">
-      Capture joy and sunshine with our vibrant creations made for moments of delight.
+    <h2 className="text-2xl font-semibold text-soul mb-2">Birthday & Celebration Package</h2>
+    <p className="text-soul mb-2">From classic cakes to dessert platters, we bring the perfect sweetness to your celebrations.
     </p>
+    <button className="bg-soul hover:bg-soul-dark text-white font-semibold py-3 px-6  transition duration-300">
+      Shop Now
+    </button>
   </div>
   {/* Image Section */}
   <div className="w-1/2">
@@ -67,7 +68,7 @@ const Catering = () => {
 </div>
 
 {/* Bottom Right Block */}
-<div className="bg-skin flex items-center justify-between p-4">
+<div className="bg-skin flex items-center justify-between p-8">
   {/* Image Section First */}
   <div className="w-1/2 pr-4">
     <img
@@ -78,10 +79,13 @@ const Catering = () => {
   </div>
   {/* Text Section Second */}
   <div className="w-1/2 pl-4">
-    <h3 className="text-2xl font-semibold text-soul mb-2">Sunlit Delights</h3>
-    <p className="text-soul">
-      Treats kissed by sunshine—perfect for those golden hour celebrations.
+    <h3 className="text-2xl font-semibold text-soul mb-2"> Custom Orders for Special Occasions</h3>
+    <p className="text-soul mb-2">
+    Have a unique request? Let us create a custom dessert experience just for you!
     </p>
+    <button className="bg-soul hover:bg-soul-dark text-white font-semibold py-3 px-6  transition duration-300">
+      Shop Now
+    </button>
   </div>
 </div>
 

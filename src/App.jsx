@@ -8,6 +8,7 @@ import Catering from './pages/catering/Catering';
 import { About } from './pages/about/About';
 import { WhyMira } from './pages/whyMira/WhyMira';
 import ImageStack from './pages/imageStack/ImageStack';
+import { Footer } from './components/footer/Footer';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
         <Route path='/why' element={<WhyMira/>}/>
         <Route path='/stack' element={<ImageStack/>}/>
         
-        
+        <Route path='/footer' element={<Footer/>}/>
         </Routes>
       </Router>
     </>

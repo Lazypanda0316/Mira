@@ -7,6 +7,7 @@ import { BestSelling } from '../bestSelling/BestSelling';
 import Catering from '../catering/Catering';
 import { About } from '../about/About';
 import { WhyMira } from '../whyMira/WhyMira';
+import { Footer } from '../../components/footer/Footer';
 
 export const Home = () => {
 
@@ -47,6 +48,7 @@ export const Home = () => {
     <BestSelling/>
     <Catering/>
     <WhyMira/>
+    <Footer/>
     </>
   );
 };
